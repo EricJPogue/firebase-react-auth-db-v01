@@ -3,12 +3,12 @@ import { getAuth, GoogleAuthProvider, /*connectAuthEmulator*/ } from "firebase/a
 import { getFirestore, /*connectFirestoreEmulator*/  } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyAiCoHcLL9_FFasjhhHAzgQ_YnyrsSLlU8",
+  authDomain: "fir-react-auth-db-project.firebaseapp.com",
+  projectId: "fir-react-auth-db-project",
+  storageBucket: "fir-react-auth-db-project.firebasestorage.app",
+  messagingSenderId: "642227680152",
+  appId: "1:642227680152:web:0b2ef265d3b5e6513e71ed"
 };
 
 const app = initializeApp(firebaseConfig);
