@@ -131,7 +131,7 @@ function Game({ user }) {
     <div className="game">
       {/* Added logout */} 
       <div style={{ position: 'absolute', top: '10px', left: '20px' }}>
-        <p>Welcome, {user.displayName}</p>
+        <p>Welcome, {user.displayName}... version 2</p>
         <button onClick={() => signOut(auth)}>Logout</button>
       </div>
 
